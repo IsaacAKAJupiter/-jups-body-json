@@ -1,0 +1,26 @@
+{
+    "name": "@jups/body-json",
+    "version": "0.1.0",
+    "description": "An extension for the jups package for parsing JSON body data.",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:IsaacAKAJupiter/jups-body-json.git"
+    },
+    "homepage": "https://github.com/IsaacAKAJupiter/jups-body-json",
+    "scripts": {
+        "build": "rm -rf build/ && gulp && gulp minify"
+    },
+    "author": "Isaac Oram",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^13.13.4",
+        "gulp": "^4.0.2",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "gulp-uglify": "^3.0.2",
+        "jups": "^0.1.1",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {}
+}
